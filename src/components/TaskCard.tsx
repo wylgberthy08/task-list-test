@@ -37,15 +37,11 @@ export function TaskCard({ task, onDelete, onComplete }: TaskCardProps) {
   }
 
   function HandleCompletingSubTasks(id: string) {
-    // Procura a tarefa com o nome fornecido dentro do array de subTasks
     const taskIndex = subTasks.findIndex((task) => task.id === id);
 
     if (taskIndex !== -1) {
-      // Cria uma cópia do array para não modificar o estado original diretamente
       const updatedSubTasks = [...subTasks];
-      // Altera o estado de conclusão da tarefa para o oposto
       updatedSubTasks[taskIndex].done = !updatedSubTasks[taskIndex].done;
-      // Atualiza o estado com a tarefa modificada
       setSubTasks(updatedSubTasks);
     }
   }

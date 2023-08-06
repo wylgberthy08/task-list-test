@@ -14,6 +14,10 @@ module.exports = {
       },
       transitionDelay: {
         '2000': '2000ms',
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
       }
     },
   },
