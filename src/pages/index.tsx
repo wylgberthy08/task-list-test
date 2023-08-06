@@ -1,16 +1,8 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import { TaskCard } from "@/components/TaskCard";
 import { VscAdd, VscSortPrecedence } from "react-icons/vsc";
-import {
-  BsFillClipboardCheckFill,
-  BsSortUpAlt,
-  BsFillFileExcelFill,
-} from "react-icons/bs";
+import { BsFillClipboardCheckFill } from "react-icons/bs";
 import { useState } from "react";
 import { TaskItemsProps } from "@/types";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [task, setTask] = useState("");
