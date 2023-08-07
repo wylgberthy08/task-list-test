@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Task List
 
-First, run the development server:
+### Visão Geral
+Bem-vindo ao Task List, a ferramenta definitiva para transformar a bagunça do seu dia a dia em uma rotina produtiva e organizada! Esta aplicação foi cuidadosamente projetada para ajudá-lo a gerenciar suas tarefas diárias com facilidade, mantendo você no controle e focado no que realmente importa.
 
+Seja você um estudante com muitas atribuições, um profissional sobrecarregado com prazos ou apenas alguém que deseja aprimorar sua produtividade pessoal, o Task List é a solução perfeita para simplificar sua vida!
+
+### Principais Recursos
+**Lista de tarefas**: Você vai poder criar suas tarefas do dia a dia. <br>
+**Conclua com Estilo**: Marque tarefas concluídas e veja seu progresso ao longo do tempo.<br>
+**Dividir para conquistar**: Você pode pegar aquela tarefa enorme e dividir em pequenas tarefas usando a funcionalidade de criar subtarefas. <br>
+**Excluir Tarefas**: você pode excluir as tarefas que preferir <br>
+**Ordenar tarefas**: Você vai poder ordenar as tarefas da seguinte forma, se quiser mover para a cima as que não estão concluidas ou o inverso! <br>
+**Acesso Multiplataforma**: Use o Organizador de Tarefas em qualquer dispositivo, seja no seu desktop ou em movimento no seu smartphone.
+
+### Telas
+ #### Desktop
+ ![Alt text](https://raw.githubusercontent.com/wylgberthy08/task-list-test/main/screens/desktop.png)
+  #### Mobile
+ ![Alt text](https://raw.githubusercontent.com/wylgberthy08/task-list-test/main/screens/mobile.png)
+   
+
+### Instalação
+
+#### passo 1.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/seu-usuario/organizador-de-tarefas.git
+ 
 ```
+#### passo 2.
+```bash
+cd organizador-de-tarefas
+```
+#### passo 3.
+```bash
+npm install
+or
+yarn
+```
+#### passo 4.
+```bash
+npm start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+### Tecnologias
+#### Next.js: v-13.4.12
+#### React.js: v-18.2.0
+#### Tailwindcss: v-3.3.3
+#### Typescript: v-5.1.6
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+O Task List é uma criação dedicada para ajudar as pessoas a tornarem suas vidas mais organizadas, produtivas e realizadoras. Esperamos que você aproveite usar nossa aplicação tanto quanto nós gostamos de criá-la!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Dê uma estrela ⭐️ se você gostou do Task List e ajude-nos a espalhar essa ferramenta incrível para mais pessoas!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Obrigado por escolher o Task List!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Made with ❤️ by [Wylgberthy Mendes]
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
