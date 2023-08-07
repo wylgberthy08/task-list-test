@@ -25,12 +25,12 @@ Seja você um estudante com muitas atribuições, um profissional sobrecarregado
 
 #### passo 1.
 ```bash
-git clone https://github.com/seu-usuario/organizador-de-tarefas.git
+git clone https://github.com/wylgberthy08/task-list-test.git
  
 ```
 #### passo 2.
 ```bash
-cd organizador-de-tarefas
+cd task-list-test
 ```
 #### passo 3.
 ```bash
