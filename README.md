@@ -30,6 +30,11 @@ Seja você um estudante com muitas atribuições, um profissional sobrecarregado
 git clone https://github.com/wylgberthy08/task-list-test.git
  
 ```
+OBS:caso dê erro no primeiro comando para clonar! rodar:
+```bash
+git clone git@github.com:wylgberthy08/task-list-test.git
+ 
+```
 #### passo 2.
 ```bash
 cd task-list-test
